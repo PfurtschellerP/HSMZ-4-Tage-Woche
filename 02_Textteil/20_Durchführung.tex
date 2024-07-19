@@ -40,20 +40,30 @@ Die anschließende praktische Umsetzung erfolgte mithilfe der Software LimeSurve
 
 Die Umfrage wurde im Zeitraum vom 04.05.2024 bis zum 29.05.2024 durchgeführt und es beteiligten sich
 insgesamt 344 Personen an der Umfrage. Davon haben 282 Personen die Umfrage vollständig beantwortet,
-während 62 Personen die Umfrage nicht vollständig beantwortet haben. Somit konnten die Daten von 282 Personen für die Auswertung herangezogen werden.
+während 62 Personen die Umfrage nicht vollständig beantwortet haben. Somit konnten die Daten von 282 
+Personen für die Auswertung herangezogen werden.
 
 \section{Datenaufbereitung}
 Aus den Ergebnissen wurden für diese Umfrage nicht relevante Ergebnisse entfernt. 
-Hierbei handelte es sich um 3 Datensätze, bei denen die Frage QA5 “Sind sie berufstätig?” 
-mit “nein” beantwortet wurde. Da diese Umfrage darauf abzieht Informationen über die 
+Hierbei handelte es sich um 3 Datensätze, bei denen die Frage QA5 \glqq{}Sind sie berufstätig?\grqq{} 
+mit \glqq{}nein\grqq{} beantwortet wurde. Da diese Umfrage darauf abzieht Informationen über die 
 Einstellung von Beschäftigten zu der 4-Tage-Woche zu erhalten, werden auch nur die 
 Antworten von Personen, die sich in einem Beschäftigungsverhältnis befinden berücksichtigt. 
-Außerdem wurde bei Frage QA12 other in den Fällen, bei denen sich die angegeben Antworten 
-eindeutig einem Bereich zuordnen ließen, dies getan. So wurde beispielsweise die Antwort 
-“Einzelhandel” dem Bereich “Handel” zugeordnet und die Antwort “Beratung” dem Bereich 
-“Dienstleistung” zugeordnet.
+Außerdem wurde bei Frage QA12, welche nach der Branche fragt in der die Person tätig ist,
+bei Antworten mit \glqq{}Sonstiges\grqq{}, die Freitextantworden den bestehenden Kategorien zugeordnet,
+bei denen sich die angegeben Antworten eindeutig einem Bereich zuordnen ließen. 
+Freitextantworden wie beispielsweise \glqq{}Einzelhandel\grqq{} dem Bereich \glqq{}Handel\grqq{} 
+und die Antwort \glqq{}Beratung\grqq{} dem Bereich \glqq{}Dienstleistung\grqq{} zugeordnet.
 
-Zusätzlich zu der Anpassung der Daten wurde eine angepasste CSV-Datei für den Import 
-in \ac{SPSS} \parencite[vgl.][]{ibm_spss_nodate} erstellt. Hierbei wurden den Fragen Variablennamen zugeordnet und ordinalen 
-und nominalen Daten nummerische Werte zugewiesen. Eine entsprechende Aufführung davon 
-findet sich in der unten aufgeführten Tabelle (vgl. \ref{tab:allgemeine_daten}). 
+Zusätzlich zu den inhaltlichen Anpassungen wurden auch die Daten selbst für \ac{SPSS} 
+\parencite[vgl.][]{ibm_spss_nodate}aufbereitet.
+Dabei wurden die Spalten mit den Daten entsprechen mit einen aussagekräftigen kurzen Variablennamen versehen,
+um die Verarbeitung der Daten in \ac{SPSS} zu erleichtern. Zusätzlich wurden den ordinalen und nominalen Daten
+nummerische Werte zugewiesen, um die Daten in \ac{SPSS} korrekt verarbeiten zu können.
+In \ac{SPSS} selbst wurden die Ergebnisse gelabelt, so dass ersichtlich ist, welche Antworten hinter den 
+nummerischen Werten stehen.
+
+% Zusätzlich zu der Anpassung der Daten wurde eine angepasste CSV-Datei für den Import 
+% in \ac{SPSS} \parencite[vgl.][]{ibm_spss_nodate} erstellt. Hierbei wurden den Fragen Variablennamen 
+% zugeordnet, sowie ordinalen und nominalen Daten nummerische Werte zugewiesen. Eine entsprechende 
+% Aufführung davon findet sich in der unten aufgeführten Tabelle (vgl. \ref{tab:allgemeine_daten}). 
