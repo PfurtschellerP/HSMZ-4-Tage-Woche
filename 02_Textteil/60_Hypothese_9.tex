@@ -9,13 +9,15 @@ Mit der Hypothese \gqq{Durch die Einführung der 4-Tage Woche steigt die Bereits
 zur Weiterbildung} wird ein Fokus auf die 
 Auswirkung der 4-Tage-Woche auf die Arbeitnehmenden gelegt. Auf Basis dieser Hypothese 
 wurde in der Umfrage
-insbesondere die Frage \gqq{Würde eine 4-Tage-Woche Ihre Bereitschaft zur Weiterbildung in 
+die Frage \gqq{Würde eine 4-Tage-Woche Ihre Bereitschaft zur Weiterbildung in 
 Ihrer Freizeit erhöhen?} an die Teilnehmenden gestellt.
+Die Teilnehmenden konnten zwischen den Antwortmöglichkeiten \gqq{Ja}, \gqq{Eher Ja}, \gqq{Neutral}, 
+\gqq{Eher Nein} und \gqq{Nein} wählen.
 
 \paragraph*{Identifikation der relevanten Variablen}
 
-Zu Beginn werden die unabhängigen, sowie die abhängige Variable identifiziert, welche für die Betrachung der
-Hypothese 9 relevant sind.
+Zu Beginn werden die unabhängigen, sowie die abhängige Variable identifiziert, welche für die 
+Betrachung der Hypothese 9 relevant sind.
 
 Die abhängige Variable beinhaltet die Daten zu der Antwort auf die Frage aus der Umfrage
 \gqq{Würde eine 4-Tage-Woche Ihre Bereitschaft zur Weiterbildung in Ihrer Freizeit erhöhen?}.
@@ -27,6 +29,7 @@ Hier wird angenommen, dass diese Variablen einen Einfluss auf die Bereitschaft z
 Weiterbildung der Teilnehmenden haben könnten.
 \begin{itemize}
     \item Alter
+    \item Geschlecht % vielleicht betrachten
     \item Kinder (Nominal)
     \item Vollzeit/Teilzeit
     % \item Führungsverantwortung
@@ -36,49 +39,57 @@ Weiterbildung der Teilnehmenden haben könnten.
 \paragraph*{Ausgewählte Analyseverfahren}
 
 Für die Auswertung aller abgegebenen Antworten wird zuerst ein Histogramm erstellt, um die gesamte Meinung
-aller Teilnehmenden ohne Berücksichtigung der unabhängigen Variablen zu betrachten.
-Hierzu werden ebenfalls der Modalwert (Modus), Median und Mittelwert der Antworten berechnet, um weitere
-Fakten über die Verteilung der Antworten zu erhalten.
+aller Teilnehmenden ohne Berücksichtigung der unabhängigen Variablen zu betrachten. Dieses ist mit einer
+Gaußschen Glockenkurve um den Mittelwert herum versehen, um zu berachten, ob die Antworten normalverteilt 
+sind.
+Hierzu werden ebenfalls der Modalwert (Modus), Median und Mittelwert der Antworten berechnet und angegeben,
+um weitere Fakten über die Verteilung der Antworten zu erhalten. % Noch Standardabweichung?
 
-Im Anschluss werden die bereits genannten unabhängigen Variablen durch Kreuztabellen betrachtet, 
+Im Anschluss werden die bereits genannten unabhängigen Variablen durch Kreuztabellen betrachtet und
+in passender Weise dargestellt, 
 welche einen Einfluss auf die Bereitschaft zur Weiterbildung in der Freizeit unter einer 4-Tage-Woche 
 haben könnten. 
-Für eine genauere Analyse wird eine Regressionsanalyse durchgeführt, 
-um einen tieferen Einblick in die Zusammenhänge zu erhalten. % Eventuell rausnehmen, wenn Kapitel zu lang wird
+% Für eine genauere Analyse wird eine Regressionsanalyse durchgeführt, 
+% um einen tieferen Einblick in die Zusammenhänge zu erhalten. % Eventuell rausnehmen, wenn Kapitel zu lang wird
 
-
-
-
-
-% Es werden Strukturprüfende Methoden verwendet, wenn man schon eine Vermutung hat
-% (Regressionsanalyse S08, Varianzanalyse, Diskriminanzanalyse S11, Kontingenzanalyse)
-% Regression geht nur bei allen Daten (?)
-
-% Betrachtung: Ist die Bereitschaft zur Weiterbildung im allgemeinen da
-% und besteht ein Zusammenhang zwischen der Bereitschaft zur Weiterbildung und bestimmten Gruppen
-
-
-
-% Schauen ob bestimmte Gruppen von Leuten eher bereit sind für eine Weiterbildung
-    % Alter - Zusammenhang: Je jünger, desto eher bereit?
-    % Kinder (Nominal) - Einfache Regression?
-    % Ausschließen von Teilzeit oder nicht?
-    % Führungsverantwortung - Sind die Personen schon gebildet genug?
 
     % Auf Statistische Unabhängigkeit achten/prüfen?
 
 
-
-
 \section{Analyse}
-% Histogramm mit Auswertung der 
 
-% Modus, Mittelwert und Median der Antworten anschauen
-% Anhand der Lage von Modus, Median und Mittelwert zueinander lässt sich erkennen wie die 
-% Häufigkeitsverteilung aussieht. Dabei stellte sich heraus, dass die Antworten ...
-% Dies bedeutet, dass ...
+In dem folgenden Histogramm \ref{fig:bereitschaft_weiterbildung_verteilung} wird die Verteilung 
+der Antworten aller Teilnehmen auf die Frage \gqq{Würde eine 4-Tage-Woche Ihre Bereitschaft 
+zur Weiterbildung in Ihrer Freizeit erhöhen?} betrachtet. 
 
-% Themen wie Geschlecht oder Alter hier reinpacken?
+Aus dem Histogramm ist zu erkennen, dass die meisten Teilnehmenden eine Bereitschaft aufweisen
+sich in ihrer Freizeit weiterzubilden, wenn eine 4-Tage-Woche eingeführt wird.
+
+Dies lässt ich auch anhand des Modalwertes (Modus) von 1 (Ja) erkennen, welcher angibt, dass die
+meisten Teilnehmenden die Bereitschaft zur Weiterbildung in ihrer Freizeit erhöhen würden.
+Der Mittelwert von x und der Median von y zeigen ebenfalls auf, dass die Bereitschaft steigt.
+Durch den Mittelwert ist allerdings zu erkennen, dass doch einige auch neutral oder negativ 
+eingestellt sind.
+% durch die Standardabweichung aufzeigen, dass die Meinung sich stärker unterscheidet?
+
+% \begin{figure}[h]
+%     \centering
+%     \includegraphics[width=0.7\textwidth]{04_Artefakte/01_Abbildungen/abc.png}
+%     \caption{Verteilung der Bereitschaft zur Weiterbildung in der Freizeit}
+%     \label{fig:bereitschaft_weiterbildung_verteilung}
+% \end{figure}
+
+\paragraph*{Alter}
+
+% Korrelationsanalyse machen?
+
+\paragraph*{Geschlecht}
+
+\paragraph*{Kinder}
+
+\paragraph*{Vollzeit/Teilzeit}
+
+
 
 % Korrelationskoeffizienten anschauen? Nur wenn Korrelationen zwischen den Variablen da ist,
 % dann auch Regressionsanalyse durchführbar?
