@@ -27,8 +27,9 @@ Die folgenden unabhängigen Variablen sind:
 \begin{itemize}
   \item Alter
   \item Geschlecht
+  \item Kinder
   % \item (Beschäftigungsverhältnis)
-  \item Branche
+  % \item Branche
   % \item Körperliche Beanspruchung
   \item Die Position im Unternehmen (Führungskraft oder nicht)
 \end{itemize}
@@ -114,6 +115,32 @@ auch in der relativen Verteilung der Antworten, die in der Tabelle zu finden sin
   \end{tabular}
   \caption{Kreuztabelle der Attraktivität des Arbeitgebenden unter Berücksichtigung des Geschlechtes}
   \label{tab:attraktivitaet_geschlecht}
+\end{table}
+
+
+\paragraph*{Kinder}
+
+Die Motivation für die Betrachtung des Zusammenhangs zwischen der Attraktivität des Arbeitgebenden und ob die befragte 
+Person Kinder hat, beruht auf der Vermutung, dass die Person den mehr Wert darauf legt Zeit mit den Kindern verbringen
+zu können. Die Kreuztabelle \ref{tab:attraktivitaet_kinder} zeigt allerdings auf, dass genau das Gegenteil der Fall ist.
+Die Teilnehmenden, die Kinder haben, geben häufiger an, dass die Einführung einer 4-Tage-Woche die Attraktivität 
+des Arbeitgebenden nicht oder eher nicht steigen würde. Die Korrelationsanalyse zeigt zudem einen Zusammenhang auf mit
+einem Korrelationskoeffizienten von $-0,205$.
+
+\begin{table}[h]
+  \centering
+  \begin{tabular}{cl|r|r|r|r|r}
+  & & \multicolumn{4}{c|}{Kinder} & \\
+  & & \multicolumn{2}{c}{Ja} & \multicolumn{2}{c|}{Nein} & \\ \hline
+  & Ja        & 35 & 33,65\%  & 103 & 57,87\%  & \\
+  & Eher Ja   & 43 & 41,35\%  & 42  & 23,6\%  &  \\
+  & Neutral   & 13  & 12,5\%  & 19  & 10,67\%  &  \\
+  & Eher Nein & 8  & 7,69\%  & 6   & 3,37\%   &  \\
+  \multirow{-5}{*}{\rotatebox[origin=c]{90}{Attraktivität}} & Nein & 5 & 4,8\% & 8 & 4,49\% &  \\ \hline
+  &           & 104 &       & 178 &       & 282
+  \end{tabular}
+  \caption{Kreuztabelle der Attraktivität des Arbeitgebenden unter Berücksichtigung ob die befragte Person Kinder hat}
+  \label{tab:attraktivitaet_kinder}
 \end{table}
 
 
